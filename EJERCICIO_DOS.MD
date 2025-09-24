@@ -49,11 +49,7 @@ Ahora, vamos a crear las funciones que nos permitirán modificar el inventario a
 -   Debe aceptar un parámetro: `cantidadVendida`.
 -   **Condicional simple**: Dentro de la función, primero comprueba si `cantidadVendida` es menor o igual al `stockProducto`.
 -   Si hay stock suficiente, resta la cantidad vendida al `stockProducto` y muestra un mensaje en consola: `"Venta exitosa. Se vendieron [cantidad] unidades de [producto]. Stock restante: [stock]"`.
-### Crea la función para reponer stock (Función Flecha):
--   Crea una función flecha asignada a una constante llamada `reponerStock`.
--   Debe aceptar un parámetro: `cantidadRepuesta`.
--   Dentro, simplemente incrementa el `stockProducto` con la `cantidadRepuesta`.
--   Muestra un mensaje en consola: `"Stock repuesto. Se añadieron [cantidad] unidades. Stock total: [stock]"`.
+c
 ### ✅ Entrega 2:
 -   Prueba tus funciones. Primero, llama a `registrarVenta(3)`. Luego, llama a `reponerStock(5)`.
 -   Llama a `mostrarInventario()` al final para ver el estado actualizado.
